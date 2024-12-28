@@ -9,7 +9,7 @@ const Home = () => {
   React.useEffect(() => {
     localStorage.setItem("TODO", JSON.stringify(tasks));
   }, [tasks]);
-
+  
 
   function updateTasks(updatedTasks) {
     setTasks(updatedTasks);
